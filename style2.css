@@ -1,11 +1,8 @@
-@font-face {
-    font-family: "Ubuntu";
-    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7");
-}
+
 
 * {
     background-color: #14181C;
-    font-family: Ubuntu;
+    font-family: Verdana;
     font-size: 20px;
     color: azure;
 
