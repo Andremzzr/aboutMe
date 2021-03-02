@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7");
+}
+
+* {
+    background-color: #14181C;
+    font-family: Ubuntu;
+    color: azure;
+    margin-left: 70px;
+}
+
+
+
+.profile-pic {
+    display: inline;
+
+    margin-right: auto;
+    border-color: #1aff66;
+
+    border-radius: 500px;
+    padding: 4px 10px;
+
+
+}
+
+div.name {
+    margin-top: 170px;
+    font-size: 45px;
+}
+
+div.description {
+    font-size: 20px;
+    color: #1aff66;
+    margin-top: 20px;
+
+}
+
+.links {
+
+    margin-top: 35px;
+    list-style: none;
+    margin-left: -110px;
+
+}
+
+li {
+
+    display: list-item;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: #1aff66;
+}
+
+.link-text {
+    font-size: 20px;
+    text-decoration: underline;
+}
