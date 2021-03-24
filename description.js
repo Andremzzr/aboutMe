@@ -1,4 +1,4 @@
-ivar typeText = document.querySelector(".description")
+      var typeText = document.querySelector(".description")
       var textToBeTyped = "- Backend developer and cornflakes fan;"
       var index = 0, isAdding = true
 
