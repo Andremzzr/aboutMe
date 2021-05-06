@@ -1,4 +1,6 @@
-
+:root{
+    --standard-green:#1aff66; 
+}
 
 * {
     background-color: #14181C;
@@ -11,13 +13,13 @@
 
 
 div.name {
-    margin-top: 170px;
+    margin-top: 150px;
     font-size: 45px;
 }
 
 div.description {
     font-size: 20px;
-    color: #1aff66;
+    color: var(--standard-green);
     margin-top: 20px;
 
 }
@@ -58,18 +60,49 @@ a {
     color: azure;
     text-decoration: none;
     transition-duration: 0.3s;
+
+    color:linear-gradient(180deg,--standard-green, white);
+
 }
 
 a:hover {
-    color: #1aff66;
+    color: var(--standard-green);
 }
 
 .link-text {
     font-size: 20px;
     text-decoration: underline;
+    
 }
 
-@media only screen and (max-width: 640px) {
+.cl{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        
+}
+.cl-text{
+    color: var(--standard-green);
+    text-decoration: underline;
+}
+.pl-display{
+    margin-top: 40px;
+   display: flex;
+}
+.devicon-php-plain,.devicon-javascript-plain,.devicon-html5-plain-wordmark,.devicon-css3-plain-wordmark{
+    font-size:50px;
+    transition-duration: 0.2s;
+    margin-right:5px;
+    
+}
+.devicon-php-plain:hover,.devicon-javascript-plain:hover, .devicon-html5-plain-wordmark:hover,
+.devicon-css3-plain-wordmark:hover{
+    color: var(--standard-green);
+}
+
+
+@media only screen and (max-width: 720px) {
     * {
         align-content: center;
     
@@ -84,7 +117,7 @@ a:hover {
     
     }
     .links {
-        margin-top: 65px;
+        margin-top: 45px;
         margin-left: -48px;
 
     
@@ -100,4 +133,25 @@ a:hover {
         text-decoration: underline;
         
     }
+    
+    .cl{
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+    }   
+
+    .pl-display{
+       margin-top: 10px;
+       display: flex;
+    }
+    .devicon-php-plain,.devicon-javascript-plain,.devicon-html5-plain-wordmark,.devicon-css3-plain-wordmark{
+        font-size:50px;
+        transition-duration: 0.2s;
+        margin-right:5px;
+        
+    }
+    
+
+
+
   }
