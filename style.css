@@ -90,14 +90,31 @@ a:hover {
     margin-top: 40px;
    display: flex;
 }
-.devicon-php-plain,.devicon-javascript-plain,.devicon-html5-plain-wordmark,.devicon-css3-plain-wordmark{
+.devicon-php-plain,.devicon-javascript-plain,.devicon-mysql-plain, .devicon-laravel-plain-wordmark{
     font-size:50px;
     transition-duration: 0.2s;
     margin-right:5px;
     
 }
-.devicon-php-plain:hover,.devicon-javascript-plain:hover, .devicon-html5-plain-wordmark:hover,
-.devicon-css3-plain-wordmark:hover{
+
+.exp{
+    display: none;
+    background-color: red;
+    width: 20%;
+    height: 20%;
+    z-index: 1000;
+    position:absolute;
+    top:initial;
+    left:initial;
+}
+
+.devicon-php-plain:hover + .exp{
+    
+    display: flex;
+}
+
+.devicon-php-plain:hover,.devicon-javascript-plain:hover,
+.devicon-mysql-plain:hover, .devicon-laravel-plain-wordmark:hover{
     color: var(--standard-green);
 }
 
@@ -149,7 +166,9 @@ a:hover {
         transition-duration: 0.2s;
         margin-right:5px;
         
+        
     }
+
     
 
 
