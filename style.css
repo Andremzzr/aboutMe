@@ -161,7 +161,7 @@ a:hover {
        margin-top: 10px;
        display: flex;
     }
-    .devicon-php-plain,.devicon-javascript-plain,.devicon-html5-plain-wordmark,.devicon-css3-plain-wordmark{
+    .devicon-php-plain,.devicon-javascript-plain,.devicon-mysql-plain, .devicon-laravel-plain-wordmark{
         font-size:50px;
         transition-duration: 0.2s;
         margin-right:5px;
